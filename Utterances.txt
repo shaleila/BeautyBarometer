@@ -1,0 +1,141 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "beauty barometer",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "exit",
+                        "cancel",
+                        "back",
+                        "go back",
+                        "quit",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what",
+                        "please help",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit",
+                        "cancel",
+                        "go back",
+                        "back",
+                        "quit",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "home",
+                        "home screen",
+                        "go home"
+                    ]
+                },
+                {
+                    "name": "CrueltyTestIntent",
+                    "slots": [
+                        {
+                            "name": "brand",
+                            "type": "AMAZON.Organization"
+                        }
+                    ],
+                    "samples": [
+                        "{brand}"
+                    ]
+                },
+                {
+                    "name": "EndSessionIntent",
+                    "slots": [],
+                    "samples": [
+                        "cancel",
+                        "go back",
+                        "back",
+                        "exit",
+                        "stop",
+                        "quit"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "AMAZON.Organization",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "elf",
+                                "synonyms": [
+                                    "E L F"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cover girl",
+                                "synonyms": [
+                                    "covergirl"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "color pop",
+                                "synonyms": [
+                                    "colourpop",
+                                    "colorpop",
+                                    "colour pop"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "benefit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anastasia beverly hills"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two faced",
+                                "synonyms": [
+                                    "too faced"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mac",
+                                "synonyms": [
+                                    "mak",
+                                    "mack"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "maybelline"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
